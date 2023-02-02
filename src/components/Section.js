@@ -14,7 +14,7 @@ const Section = () => {
   return (
     <div className="section">
       <div className="first-lottie">
-        <Coding />
+        <Coding className="lottie"/>
         </div>
       <div>
         <h1 className="main-header">
