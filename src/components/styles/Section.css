@@ -1,0 +1,70 @@
+.section {
+  width: 100%;
+  min-height: 100vh;
+  /* background: linear-gradient(45deg, var(--clr-section)), url(../../assets/bgPhoto.jpg); */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 4rem;
+}
+.first-lottie {
+  /* width: 25rem;
+  height: 25rem;
+  position: absolute;
+  left: 50%; */
+}
+
+.section > * {
+  text-align: center;
+  max-width: 60ch;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+  /* position: absolute; */
+  z-index: 99;
+}
+.main-header {
+  font-size: 30px;
+  color: var(--clr-white);
+}
+.main-header span {
+  display: block;
+  font-size: clamp(1rem, 5vw + 1rem, 6rem);
+  color: hsl(var(--clr-glass-light));
+}
+
+.main-status {
+  font-size: clamp(0.3rem, 4vw + 0.4rem, 2rem);
+  color: hsl(var(--clr-glass-font));
+}
+
+.main-btn {
+  margin-block: 1rem;
+}
+.main-btn a {
+  text-decoration: none;
+  color: var(--clr-white);
+}
+.container {
+  width: 30%;
+  margin-right: 10rem;
+}
+
+@media (max-width: 768px) {
+  .section {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .first-lottie {
+
+    width: 20rem;
+    height: 5rem;
+  }
+}
