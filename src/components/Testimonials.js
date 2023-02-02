@@ -4,6 +4,9 @@ import './styles/Testimonials.css'
 const Testimonials = () => {
   return (
             <div className='testimonials'>
+                <h2>
+                    Projects
+                </h2>
 
                     <div className="test-carts">
                         <h3>neils geiman</h3>
