@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import Coding from "./DisplayLottie";
 import Typewriter from "typewriter-effect";
+import bg from "../assets/bgPhoto.jpg"
 
 const introdata = {
   title: "I’m Stefan Dascalescu",
@@ -21,6 +22,7 @@ const Section = () => {
   };
 
   return (
+    
     <div className="section">
       <div className="first-lottie">
         <Coding className="lottie" />

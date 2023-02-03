@@ -7,11 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(90deg, var(--clr-section)),
     url(../src/assets/bgPhoto.jpg) no-repeat center;
-    background-size: cover !important;
-    background-attachment: fixed !important;
-    overflow-wrap: break-word !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
+    background-size: cover ;
+    background-attachment: fixed ;
+    overflow-wrap: break-word ;
+    background-repeat: no-repeat ;
+    background-position: center ;
 
   /* background-repeat: no-repeat;
   background-attachment: fixed;
