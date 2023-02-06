@@ -10,7 +10,7 @@ const Contact = () => {
       <input type="text" placeholder="Name" />
       <input type="text" placeholder="Email" />
       <input type="text" placeholder="Message" className="input-message" />
-      <Link to="/">send</Link>
+      <div to="/">send</div>
       <div className="second-lottie">
         <HireMe />
       </div>

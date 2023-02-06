@@ -20,7 +20,7 @@ const Info = () => {
         </p>
 
         <div className="info-btn">
-          <Link to="/">More</Link>
+          <div to="/">More</div>
         </div>
       </div>
 

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import Coding from "./DisplayLottie";
 import Typewriter from "typewriter-effect";
- // import bg from "../assets/bgPhoto.jpg"
+// import bg from "../assets/bgPhoto.jpg"
 
 const introdata = {
   title: "I’m Stefan Dascalescu",
@@ -22,7 +22,6 @@ const Section = () => {
   };
 
   return (
-    
     <div className="section">
       <div className="first-lottie">
         <Coding className="lottie" />
@@ -39,10 +38,10 @@ const Section = () => {
             }}
           />
         </h1>
-         <div className="main-btn">
-          <Link onClick={showModal} to="/">
+        <div className="main-btn">
+          <div onClick={showModal} to="/">
             My Resume
-          </Link>
+          </div>
         </div>
         {modalActive && <Modal showModal={showModal} />}
       </div>
