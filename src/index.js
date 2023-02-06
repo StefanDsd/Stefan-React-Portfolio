@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Contact from './components/Contact';
+import Info from './components/Info';
+import Testimonials from './components/Testimonials';
 import { BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
@@ -12,6 +14,8 @@ root.render(
     <Router>
       <Routes>
         <Route path="/" element={<App />} />;
+        <Route path="/info" element={<Info />} />
+        <Route path="/testimonials" element={<Testimonials />} />
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
     </Router>,

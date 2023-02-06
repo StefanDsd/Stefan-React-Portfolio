@@ -9,6 +9,7 @@
 }
 
 .test-carts {
+    color: var(--clr-white);
     padding:2.5rem;
     background: hsl(var(--clr-glass-light));
     line-height: 1.5;

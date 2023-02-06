@@ -28,7 +28,7 @@ const Header = () => {
             <AiOutlineClose className="close" onClick={openMenu}/>
           </div>
           <li>
-            <Link to="/" >Works</Link>
+            <Link to="/" >Home</Link>
             <Link to="/Testimonials">Projects</Link>
             <Link to="/Info">About</Link>
             <Link to="/Contact">Contact</Link>
