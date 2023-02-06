@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import Coding from "./DisplayLottie";
 import Typewriter from "typewriter-effect";
-import bg from "../assets/bgPhoto.jpg"
+ // import bg from "../assets/bgPhoto.jpg"
 
 const introdata = {
   title: "I’m Stefan Dascalescu",
@@ -39,13 +39,6 @@ const Section = () => {
             }}
           />
         </h1>
-        {/* <h1 className="main-header">
-           <span>I am Stefan Dascalescu</span>
-        </h1>
-        <p className="main-status">
-        I'm passionate Full Stack web developer having a brief experience of web applications with React, JavaScript and Next.js .
-        </p>
-         */}
          <div className="main-btn">
           <Link onClick={showModal} to="/">
             My Resume

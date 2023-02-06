@@ -10,7 +10,7 @@
 
 .test-carts {
     padding:2.5rem;
-    background: hsl(var(--clr-glass-dark));
+    background: hsl(var(--clr-glass-light));
     line-height: 1.5;
     cursor: pointer;
 }
@@ -23,6 +23,10 @@
 .test-carts h3 {
     text-transform: uppercase;
     margin-block: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .test-carts p {
     text-transform: uppercase;
