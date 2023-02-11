@@ -19,6 +19,7 @@ root.render(
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
     </Router>,
+    
   </React.StrictMode>
 );
 
