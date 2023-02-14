@@ -2,7 +2,7 @@
 
 import { FaHamburger } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
-import './styles/Header.css';
+import '../Header/index.modules.css';
 import React,{ useState} from "react";
 import { Link } from "react-router-dom";
 

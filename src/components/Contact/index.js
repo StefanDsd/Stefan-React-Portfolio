@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './styles/Contact.css'
-import HireMe from "./HireMe";
+import '../Contact/index.modules.css';
+import HireMe from "../HireMe";
 
 
 const Contact = () => {
@@ -12,10 +12,11 @@ const Contact = () => {
         <input type="text" placeholder='Email'/>
         <input type="text" placeholder='Message' className='input-message'/>
         <Link to='/'>send</Link>
-        <div className='second-lottie'>
+        {/* <div className='second-lottie'>
           <HireMe />
-        </div>
-  </div>);
+        </div> */}
+  </div>
+  );
 };
 
 export default Contact;

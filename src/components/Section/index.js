@@ -1,8 +1,8 @@
-import "./styles/Section.css";
-import Modal from "./Modal";
+import "../Section/index.modules.css";
+import Modal from "../Modal";
 import { Link } from "react-router-dom";
 import React, { useState } from "react";
-import Coding from "./DisplayLottie";
+import Coding from "../DisplayLottie";
 import Typewriter from "typewriter-effect";
  // import bg from "../assets/bgPhoto.jpg"
 

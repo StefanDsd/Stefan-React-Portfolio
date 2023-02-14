@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/Testimonials.css";
+import "../Testimonials/index.modules.css";
 import { motion } from "framer-motion";
 
 

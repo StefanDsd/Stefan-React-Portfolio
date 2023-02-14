@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./styles/Info.css";
+import "../Info/index.modules.css";
 const Info = () => {
   return (
     <div className="info-section">
