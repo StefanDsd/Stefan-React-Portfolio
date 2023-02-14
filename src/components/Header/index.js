@@ -1,19 +1,15 @@
 
-
-import { FaHamburger } from 'react-icons/fa';
-import { AiOutlineClose } from 'react-icons/ai';
-import '../Header/index.modules.css';
-import React,{ useState} from "react";
-import { Link } from "react-router-dom";
-
+import { FaHamburger } from "react-icons/fa";
+import { AiOutlineClose } from "react-icons/ai";
+import "../Header/index.modules.css";
+import React, { useState } from "react";
 
 const Header = () => {
+  const [navActive, setNavActive] = useState(false);
 
-    const [navActive, setNavActive] = useState(false);
-
-    const openMenu = () => {
-        setNavActive(!navActive);
-    }
+  const openMenu = () => {
+    setNavActive(!navActive);
+  };
 
   return (
     <div className="header">
@@ -21,18 +17,15 @@ const Header = () => {
         <span>Stf</span>
       </div>
 
-
       <nav>
-        <ul className={navActive ?'list-items active' : 'list-items'}>
+        <ul className={navActive ? "list-items active" : "list-items"}>
           <div className="close-icon">
-            <AiOutlineClose className="close" onClick={openMenu}/>
+            <AiOutlineClose className="close" onClick={openMenu} />
           </div>
-          <li>
-            <Link to="/" >Home</Link>
-            <Link to="/Testimonials">Projects</Link>
-            <Link to="/Info">About</Link>
-            <Link to="/Contact">Contact</Link>
-          </li>
+          <a href="#section">Home</a>
+          <a href="#about">About</a>
+          <a href="#testimonials">Projects</a>
+          <a href="#contact">Contact</a>
         </ul>
       </nav>
       <div className="hamburger-icon">

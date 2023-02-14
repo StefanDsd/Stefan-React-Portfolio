@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../Info/index.modules.css";
+
 const Info = () => {
   return (
-    <div className="info-section">
+    <div className="info-section" id="about">
       <div className="info-about">
         <h3>
           About <span>me</span>
@@ -20,7 +20,7 @@ const Info = () => {
         </p>
 
         <div className="info-btn">
-          <Link to="/">More</Link>
+          <div to="/">More</div>
         </div>
       </div>
 

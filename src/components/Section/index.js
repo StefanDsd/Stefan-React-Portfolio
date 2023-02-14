@@ -1,6 +1,5 @@
 import "../Section/index.modules.css";
 import Modal from "../Modal";
-import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import Coding from "../DisplayLottie";
 import Typewriter from "typewriter-effect";
@@ -23,7 +22,7 @@ const Section = () => {
 
   return (
     
-    <div className="section">
+    <div className="section" id="section">
       <div className="first-lottie">
         <Coding className="lottie" />
       </div>
@@ -40,9 +39,9 @@ const Section = () => {
           />
         </h1>
          <div className="main-btn">
-          <Link onClick={showModal} to="/">
+          <div onClick={showModal} to="/">
             My Resume
-          </Link>
+          </div>
         </div>
         {modalActive && <Modal showModal={showModal} />}
       </div>
