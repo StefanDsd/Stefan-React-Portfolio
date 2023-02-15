@@ -15,7 +15,7 @@ const Technologies = () => {
 
   return (
     <div className="technologies" id="technologies">
-      <h1>Technologies I work with</h1>
+      <h1>Technologies</h1>
           <br />
       <motion.div
         ref={carousel}
