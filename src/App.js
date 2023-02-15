@@ -4,8 +4,9 @@ import Header from './components/Header';
 import Contact from './components/Contact';
 import Section from './components/Section';
 import Info from './components/Info';
-import Testimonials from './components/Testimonials';
 import './App.css';
+import Projects from './components/Projects';
+import Technologies from './components/Technologies';
 
 function App() {
 
@@ -14,7 +15,8 @@ function App() {
       <Header />
       <Section />
       <Info />
-      <Testimonials />
+      <Projects />
+      <Technologies />
       <Contact />
     </div>
   );
