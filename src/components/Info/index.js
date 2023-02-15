@@ -9,15 +9,14 @@ const Info = () => {
           About <span>me</span>
         </h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere culpa
-          excepturi sapiente, ad voluptate quidem magnam libero perferendis et
-          tempora aperiam, accusamus vero ullam labore omnis molestiae
-          laudantium cum, harum rem. Officiis dolor est id sit odio dolores
-          voluptatibus blanditiis incidunt et repellat maiores nostrum assumenda
-          at voluptatum quod nisi, sapiente eius explicabo aut qui nam sequi in.
-          Laborum ex dicta dolor illum commodi repudiandae, repellat minus nobis
-          cupiditate voluptatum, ratione aut sequi ipsam consectetur?
-        </p>
+            I'm a very ambitious front-end developer looking for a role in an
+            established IT company with the opportunity to work with the latest
+            technologies on challenging and diverse projects.
+          </p>
+          <p align="LEFT">
+            I'm quiet confident, naturally curious, and perpetually working on
+            improving my chops one design problem at a time.
+          </p>
 
         <div className="info-btn">
           <div to="/">More</div>

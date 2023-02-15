@@ -1,14 +1,14 @@
 import React from "react";
-import "../Testimonials/index.modules.css";
+import "./index.modules.css";
 import { motion } from "framer-motion";
 
 
-const Testimonials = () => {
+const Projects = () => {
   return (
-    <div id="testimonials">
+    <div id="projects">
       <h2>Projects</h2>
 
-      <div className="testimonials">
+      <div className="projects">
         <motion.div
         whileInView={{ x: [-400, 0], opacity: [0, 1] }}
         transition={{ duration: 1.2, ease: "easeIn" }}
@@ -77,4 +77,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Projects;
