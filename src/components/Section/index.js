@@ -38,10 +38,8 @@ const Section = () => {
             }}
           />
         </h1>
-         <div className="main-btn">
-          <div onClick={showModal} to="/">
+         <div className="main-btn" onClick={showModal} to="/">
             My Resume
-          </div>
         </div>
         {modalActive && <Modal showModal={showModal} />}
       </div>

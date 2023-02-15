@@ -41,10 +41,9 @@
     color: hsl(var(--clr-glass-font));
   }
   
-  .main-btn {
+  .main-btn  {
+    cursor: pointer;
     margin-block: 1rem;
-  }
-  .main-btn a {
     text-decoration: none;
     color: var(--clr-white);
   }
