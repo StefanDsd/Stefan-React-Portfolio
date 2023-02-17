@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./index.modules.css";
 import { motion } from "framer-motion";
-// import technologies from "../../technologies"
 import infoProjects from "../../projects";
 
 
@@ -15,7 +14,7 @@ const Technologies = () => {
 
   return (
     <div className="technologies" id="technologies">
-      <h1>Technologies I work with</h1>
+      <h1>Technologies</h1>
           <br />
       <motion.div
         ref={carousel}

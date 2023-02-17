@@ -33,6 +33,16 @@
     text-transform: uppercase;
     font-size: clamp(.3rem,.3vw + .5rem,2rem);
 }
+.buttons {
+    size: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    width: 5em;
+    height: 3em;
+    background-color: var(--clr-white);
+}
 
 @media (min-width:600px) {
     .projects {

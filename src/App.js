@@ -3,10 +3,10 @@
 import Header from './components/Header';
 import Contact from './components/Contact';
 import Section from './components/Section';
-import Info from './components/Info';
 import './App.css';
 import Projects from './components/Projects';
-import Technologies from './components/Technologies';
+// import Technologies from './components/Technologies';
+import About from './components/About';
 
 function App() {
 
@@ -14,9 +14,9 @@ function App() {
     <div className="App">
       <Header />
       <Section />
-      <Info />
+      <About />
       <Projects />
-      <Technologies />
+      {/* <Technologies /> */}
       <Contact />
     </div>
   );

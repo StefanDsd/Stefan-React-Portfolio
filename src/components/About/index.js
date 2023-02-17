@@ -1,7 +1,7 @@
 import React from "react";
-import "../Info/index.modules.css";
+import "../About/index.modules.css";
 
-const Info = () => {
+const About = () => {
   return (
     <div className="info-section" id="about">
       <div className="info-about">
@@ -13,7 +13,7 @@ const Info = () => {
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
-          <p align="LEFT">
+          <p>
             I'm quiet confident, naturally curious, and perpetually working on
             improving my chops one design problem at a time.
           </p>
@@ -33,4 +33,4 @@ const Info = () => {
   );
 };
 
-export default Info;
+export default About;
