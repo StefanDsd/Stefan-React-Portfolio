@@ -34,6 +34,7 @@ function ResumeModal() {
         onRequestClose={() => setModalIsOpen(false)}
         style={modalStyle}
       >
+        
         <img
           src={resume}
           alt="Resume"
