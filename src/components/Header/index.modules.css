@@ -66,13 +66,13 @@
       align-items: center;
       list-style: none;
       gap: 5rem;
-      margin-top: 6rem;
+      margin-top: 3rem;
   
     }
   
     .list-items.active{
       transform: translateX(0);
-      transition: 500ms;
+      transition: 900ms;
     }
   
     .list-items li a{
