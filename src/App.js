@@ -5,7 +5,7 @@ import Contact from './components/Contact';
 import Section from './components/Section';
 import './App.css';
 import Projects from './components/Projects';
-import Technologies from './components/Technologies';
+// import Technologies from './components/Technologies';
 import About from './components/About';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       <Section />
       <About />
       <Projects />
-      <Technologies />
+      {/* <Technologies /> */}
       <Contact />
     </div>
   );

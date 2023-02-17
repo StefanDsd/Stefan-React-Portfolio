@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./index.modules.css";
 import { motion } from "framer-motion";
-// import technologies from "../../technologies"
 import infoProjects from "../../projects";
 
 
