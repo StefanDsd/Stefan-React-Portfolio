@@ -1,29 +1,48 @@
+import React, { useState } from 'react';
+import Modal from 'react-modal';
+import resume from '../../assets/resume.jpg'
 
-import React from 'react';
-import '../Modal/index.modules.css';
-import { AiOutlineClose } from 'react-icons/ai';
-// import myResume from '../assets/Resume_SD.pdf';
+function ResumeModal() {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
 
-const Modal = ({showModal}) => {
-    // const resume = myResume;
+  const modalStyle = {
+    content: {
+      top: '50%',
+      left: '50%',
+      right: 'auto',
+      bottom: 'auto',
+      marginRight: '-50%',
+      transform: 'translate(-50%, -50%)',
+    },
+    overlay: {
+      backgroundColor: 'rgba(0, 0, 0, 0.5)'
+    }
+  };
+
+  const imgStyle = {
+    display: 'block',
+    margin: '0 auto',
+    maxWidth: '100%',
+    maxHeight: '100%'
+  };
 
   return (
-    <div className="modal">
-      <div className="close-modal">
-        <AiOutlineClose className="cm" onClick={showModal} />
-      </div>
-      <div className="cart">
-        <div to="/">Projects</div>
-      </div>
-      <div className="cart">
-        <div to="/">Hackathons</div>
-      </div>
-      <div className="cart">
-        <div to="/">Playground</div>
-      </div>
-      
+    <div>
+      <button className="button" onClick={() => setModalIsOpen(true)}>View Resume</button>
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={() => setModalIsOpen(false)}
+        style={modalStyle}
+      >
+        
+        <img
+          src={resume}
+          alt="Resume"
+          style={imgStyle}
+        />
+      </Modal>
     </div>
   );
-};
+}
 
-export default Modal
+export default ResumeModal;

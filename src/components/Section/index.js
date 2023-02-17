@@ -1,5 +1,4 @@
 import "../Section/index.modules.css";
-import Modal from "../Modal";
 import React, { useState } from "react";
 import Coding from "../DisplayLottie";
 import Typewriter from "typewriter-effect";
@@ -15,10 +14,7 @@ const introdata = {
 };
 
 const Section = () => {
-  const [modalActive, setModalActive] = useState(false);
-  const showModal = () => {
-    setModalActive(!modalActive);
-  };
+
 
   return (
     
@@ -38,10 +34,6 @@ const Section = () => {
             }}
           />
         </h1>
-         <div className="main-btn" onClick={showModal} to="/">
-            My Resume
-        </div>
-        {modalActive && <Modal showModal={showModal} />}
       </div>
     </div>
   );

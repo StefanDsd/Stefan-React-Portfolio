@@ -1,5 +1,6 @@
 import React from "react";
 import "../About/index.modules.css";
+import Modal from '../Modal';
 
 const About = () => {
   return (
@@ -19,7 +20,7 @@ const About = () => {
           </p>
 
         <div className="info-btn">
-          <div to="/">More</div>
+          <Modal />
         </div>
       </div>
 
