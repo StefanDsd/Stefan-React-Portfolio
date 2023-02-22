@@ -5,12 +5,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 2rem;
     gap: 1rem;
 }
 .contact h1 {
-    color: hsl(var(--clr-glass-dar));
+    color: var(--clr-white);
 }
-.contact input {
+.contact input  {
     width: 60vw;
     padding: 15px;
     margin-block: .3rem;
@@ -18,10 +19,28 @@
     outline: none;
     background: hsl(var(--clr-glass-light));
     color: var(--clr-white);
+    border-radius: 10px;
 }
 .contact .input-message {
-    padding-bottom: 4rem;
+    width: 60vw;
+    padding: 15px;
+    margin-block: .3rem;
+    border: none;
+    outline: none;
+    background: hsl(var(--clr-glass-light));
+    color: var(--clr-white);
+    border-radius: 10px;
 }
+.submit-button {
+    width: 5rem;
+    height: 3rem;
+    background: hsl(var(--clr-glass-light));
+    
+}
+.submit-button:hover{
+    background-color: var(--clr-white);
+}
+
 .contact input::placeholder {
     color: var(--clr-white);
 }
