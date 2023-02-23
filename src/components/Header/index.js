@@ -2,10 +2,11 @@
 import { FaHamburger } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import "../Header/index.modules.css";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 
 const Header = () => {
   const [navActive, setNavActive] = useState(false);
+  const navRef = useRef(null);
 
   const openMenu = () => {
     setNavActive(!navActive);

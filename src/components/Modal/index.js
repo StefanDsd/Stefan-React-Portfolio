@@ -36,6 +36,7 @@ function ResumeModal() {
   return (
     <div>
       <button className="button" onClick={() => setModalIsOpen(true)}>View Resume</button>
+      <br></br>
       <button className="button" onClick={downloadResume}>Download Resume</button>
 
       <Modal

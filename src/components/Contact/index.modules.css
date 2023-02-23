@@ -34,6 +34,7 @@
 .submit-button {
     width: 5rem;
     height: 3rem;
+    border-radius: 10px;
     background: hsl(var(--clr-glass-light));
     
 }

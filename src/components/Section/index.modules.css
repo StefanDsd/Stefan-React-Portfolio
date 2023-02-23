@@ -38,7 +38,7 @@
   
   .main-status {
     font-size: clamp(0.3rem, 3vw + 0.4rem, 2.5rem);
-    color: hsl(var(--clr-glass-font));
+    color: var(--clr-white);
   }
   
   .main-btn  {

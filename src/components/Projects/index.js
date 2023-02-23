@@ -18,10 +18,7 @@ const Projects = () => {
         >
           <h3>Berliner Quiz</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est iste
-            officiis expedita deleniti, velit repellendus laudantium eum dolore
-            nesciunt ullam maxime mollitia optio accusantium unde inventore
-            doloremque, aliquam fugit vitae?
+          Project-1-Berliner-Quiz is a fun and interactive quiz game that tests your knowledge of Berlin, Germany. Developed by my team , Valeria Kurylko, Mulugeta Birish, Hendra Widjaya, the game is built using HTML, CSS, and JavaScript.
           </p>
           <div className="buttons">
             <a
@@ -53,10 +50,7 @@ const Projects = () => {
         >
           <h3>Space Explorer</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est iste
-            officiis expedita deleniti, velit repellendus laudantium eum dolore
-            nesciunt ullam maxime mollitia optio accusantium unde inventore
-            doloremque, aliquam fugit vitae?
+          Space Explorer is an exciting and educational web application developed by you and your talented colleagues, Stefan Ivanus and Oriane Magnin, during the Wild Code School bootcamp. The application, built using the popular React JS library, allows users to explore the universe and learn about different celestial objects such as planets, moons, stars, and galaxies.
           </p>
           <div className="buttons">
             <a
@@ -88,10 +82,7 @@ const Projects = () => {
         >
           <h3>Car Rental</h3>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est iste
-            officiis expedita deleniti, velit repellendus laudantium eum dolore
-            nesciunt ullam maxime mollitia optio accusantium unde inventore
-            doloremque, aliquam fugit vitae?
+          Car Rental App is a dynamic and intuitive web application developed by you and your skilled colleagues, Stefan Ivanus and Andrei-Lucian Leahu, during the Wild Code School bootcamp. The application, built using the popular React library and stylish Tailwind CSS framework, provides users with a seamless car rental experience, from browsing available cars to booking reservations. The app also leverages the power of Supabase, an open-source database, to ensure fast and reliable data storage and retrieval. With its sleek design and user-friendly interface, Car Rental App is sure to become a go-to platform for anyone looking to rent a car hassle-free.
           </p>
           <div className="buttons">
           <a

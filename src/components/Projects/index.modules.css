@@ -37,6 +37,9 @@
 .test-carts p {
     text-transform: uppercase;
     font-size: clamp(.3rem,.3vw + .5rem,2rem);
+    color: white;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
 }
 .buttons {
     size: 100px;
@@ -46,6 +49,7 @@
 .button {
     width: 5em;
     height: 3em;
+    border-radius: 10px;
     background-color: var(--clr-white);
 }
 
