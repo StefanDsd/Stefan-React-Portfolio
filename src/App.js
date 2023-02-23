@@ -7,6 +7,7 @@ import './App.css';
 import Projects from './components/Projects';
 // import Technologies from './components/Technologies';
 import About from './components/About';
+import LanguageCarousel from './components/LanguageCarousel';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Section />
       <About />
       <Projects />
+      <LanguageCarousel />
       {/* <Technologies /> */}
       <Contact />
     </div>

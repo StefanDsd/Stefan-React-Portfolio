@@ -19,6 +19,7 @@ export const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
@@ -27,13 +28,9 @@ export const Contact = () => {
   }
 
   return (
+    
     <div className="contact" id="contact">
-      
-
       <form className="contact" ref={form} onSubmit={sendEmail}>
-      <div>
-        <ContactMe className="lottie-contact" />
-      </div>
         <h1>Contact me</h1>
         <input type="text" name="from_name" placeholder="Name" />
         <input type="email" name="reply_to" placeholder="Email" />
@@ -46,7 +43,11 @@ export const Contact = () => {
           Send
         </button>
       </form>
+      <div >
+        <ContactMe className="lottie-contact" />
+      </div>
     </div>
+    
   );
 };
 

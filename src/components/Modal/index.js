@@ -26,9 +26,18 @@ function ResumeModal() {
     maxHeight: '100%'
   };
 
+  const downloadResume = () => {
+    const link = document.createElement('a');
+    link.download = 'resume.pdf';
+    link.href = '/resume/resume.pdf';
+    link.click();
+  };
+
   return (
     <div>
       <button className="button" onClick={() => setModalIsOpen(true)}>View Resume</button>
+      <button className="button" onClick={downloadResume}>Download Resume</button>
+
       <Modal
         isOpen={modalIsOpen}
         onRequestClose={() => setModalIsOpen(false)}
