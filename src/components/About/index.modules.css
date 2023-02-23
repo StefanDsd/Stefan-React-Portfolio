@@ -35,6 +35,8 @@
 
 .info-about p {
     font-size: clamp(.5rem, .5vw + .5rem, 4rem);
+    font-weight: bold;
+    color: white;
 }
 
 .info-btn{
