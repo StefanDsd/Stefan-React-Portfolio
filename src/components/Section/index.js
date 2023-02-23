@@ -1,5 +1,5 @@
 import "../Section/index.modules.css";
-import React, { useState } from "react";
+import React from "react";
 import Coding from "../DisplayLottie";
 import Typewriter from "typewriter-effect";
  // import bg from "../assets/bgPhoto.jpg"
