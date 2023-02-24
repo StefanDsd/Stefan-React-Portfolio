@@ -40,6 +40,7 @@ const Projects = () => {
           </div>
         </motion.div>
 
+
         <motion.div
           whileInView={{ x: [-400, 0], opacity: [0, 1] }}
           transition={{ duration: 1.2, ease: "easeIn" }}
