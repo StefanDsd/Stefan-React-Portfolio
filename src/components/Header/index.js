@@ -6,11 +6,12 @@ import React, { useState } from "react";
 
 const Header = () => {
   const [navActive, setNavActive] = useState(false);
-  // const navRef = useRef(null);
+
 
   const openMenu = () => {
     setNavActive(!navActive);
   };
+
 
   return (
     <div className="header">
