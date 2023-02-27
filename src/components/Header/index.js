@@ -2,15 +2,27 @@
 import { FaHamburger } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import "../Header/index.modules.css";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Header = () => {
   const [navActive, setNavActive] = useState(false);
-  const navRef = useRef(null);
 
-  const openMenu = () => {
+
+  const openMenu = (e) => {
+    e.stopPropagation(); // stop event propagation
     setNavActive(!navActive);
   };
+
+  useEffect(() => {
+    const handleDocumentClick = () => {
+      setNavActive(false);
+    };
+    document.addEventListener("click", handleDocumentClick);
+    return () => {
+      document.removeEventListener("click", handleDocumentClick);
+    };
+  }, []);
+
 
   return (
     <div className="header">

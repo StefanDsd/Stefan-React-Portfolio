@@ -30,6 +30,9 @@ export const Contact = () => {
   return (
     
     <div className="contact" id="contact">
+      <div className="lottie-contact">
+        <ContactMe  />
+      </div>
       <form className="contact" ref={form} onSubmit={sendEmail}>
         <h1>Contact me</h1>
         <input type="text" name="from_name" placeholder="Name" />
@@ -43,9 +46,7 @@ export const Contact = () => {
           Send
         </button>
       </form>
-      <div >
-        <ContactMe className="lottie-contact" />
-      </div>
+      
     </div>
     
   );
