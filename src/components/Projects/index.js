@@ -1,6 +1,17 @@
 import React from "react";
 import "./index.modules.css";
 import { motion } from "framer-motion";
+import Typewriter from "typewriter-effect";
+
+
+const introdata = {
+  title: "",
+  animated: {
+    first:
+      "Coming Soon !",
+  },
+  description: "",
+};
 
 const Projects = () => {
   return (
@@ -51,7 +62,7 @@ const Projects = () => {
         >
           <h3>Space Explorer</h3>
           <p>
-          Space Explorer is an exciting and educational web application developed by you and your talented colleagues, Stefan Ivanus and Oriane Magnin, during the Wild Code School bootcamp. The application, built using the popular React JS library, allows users to explore the universe and learn about different celestial objects such as planets, moons, stars, and galaxies.
+          Space Explorer is an exciting and educational web application developed by me and my talented colleagues, Stefan Ivanus and Oriane Magnin, during the Wild Code School bootcamp. The application, built using the popular React JS library, allows users to explore the universe and learn about different celestial objects such as planets, moons, stars, and galaxies.
           </p>
           <div className="buttons">
             <a
@@ -83,7 +94,7 @@ const Projects = () => {
         >
           <h3>Car Rental</h3>
           <p>
-          Car Rental App is a dynamic and intuitive web application developed by you and your skilled colleagues, Stefan Ivanus and Andrei-Lucian Leahu, during the Wild Code School bootcamp. The application, built using the popular React library and stylish Tailwind CSS framework, provides users with a seamless car rental experience, from browsing available cars to booking reservations. The app also leverages the power of Supabase, an open-source database, to ensure fast and reliable data storage and retrieval. With its sleek design and user-friendly interface, Car Rental App is sure to become a go-to platform for anyone looking to rent a car hassle-free.
+          Car Rental App is a dynamic and intuitive web application developed by me and my skilled colleagues, Stefan Ivanus and Andrei-Lucian Leahu. The application, built using the popular React library and stylish Tailwind CSS framework, provides users with a seamless car rental experience, from browsing available cars to booking reservations. The app also leverages the power of Supabase, an open-source database, to ensure fast and reliable data storage and retrieval. With its sleek design and user-friendly interface, Car Rental App is sure to become a go-to platform for anyone looking to rent a car hassle-free.
           </p>
           <div className="buttons">
           <a
@@ -106,12 +117,20 @@ const Projects = () => {
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           viewport={{ once: true }}
-          className="test-carts"
+          className="test-carts3"
         >
           <h3>Techtree</h3>
           <p>
-            Coming soon !
+            {introdata.title}
           </p>
+          <Typewriter
+            options={{
+              strings: [introdata.animated.first],
+              autoStart: true,
+              loop: true,
+              deleteSpeed: 100,
+            }}
+            />
         </motion.div>
       </div>
     </div>

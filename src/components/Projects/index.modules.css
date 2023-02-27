@@ -20,6 +20,28 @@
     line-height: 1.5;
     cursor: pointer;
 }
+.test-carts3 {
+    color: var(--clr-white);
+    padding:2.5rem;
+    background: hsl(var(--clr-glass-light));
+    line-height: 1.5;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.test-carts3 p{
+    text-transform: uppercase;
+    font-size: clamp(.3rem,.3vw + .5rem,2rem);
+    color: white;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 .test-carts:hover {
     background-color: var(--clr-white);
@@ -53,6 +75,7 @@
     color: black;
     background-color: var(--clr-white);
 }
+
 
 @media (min-width:600px) {
     .projects {
