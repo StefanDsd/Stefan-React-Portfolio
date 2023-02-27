@@ -8,12 +8,14 @@ import Projects from './components/Projects';
 // import Technologies from './components/Technologies';
 import About from './components/About';
 import LanguageCarousel from './components/LanguageCarousel';
+import ScrollButton from './components/ScrollButton';
 
 function App() {
 
   return (
     <div className="App">
       <Header />
+      <ScrollButton />
       <Section />
       <About />
       <Projects />

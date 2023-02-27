@@ -77,7 +77,6 @@ height: 100vh;
     .lottie-contact{
 
         width: 100vw;
-        height: 100vh;
-        
+        height: 0vh;
         }
 }
