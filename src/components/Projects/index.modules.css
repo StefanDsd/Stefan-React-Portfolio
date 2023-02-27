@@ -50,6 +50,7 @@
     width: 5em;
     height: 3em;
     border-radius: 10px;
+    color: black;
     background-color: var(--clr-white);
 }
 
